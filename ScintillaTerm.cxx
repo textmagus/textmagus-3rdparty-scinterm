@@ -915,8 +915,8 @@ void Platform::DebugDisplay(const char *s) { fprintf(stderr, "%s", s); }
 //  return (bytes >= 1) ? bytes : 1;
 //}
 //int Platform::DBCSCharMaxLength() { return MB_CUR_MAX; }
-int Platform::Minimum(int a, int b) { return (a < b) ? a : b; }
-int Platform::Maximum(int a, int b) { return (a > b) ? a : b; }
+//int Platform::Minimum(int a, int b) { return (a < b) ? a : b; }
+//int Platform::Maximum(int a, int b) { return (a > b) ? a : b; }
 void Platform::DebugPrintf(const char *format, ...) {}
 //bool Platform::ShowAssertionPopUps(bool assertionPopUps_) { return true; }
 void Platform::Assert(const char *c, const char *file, int line) {
